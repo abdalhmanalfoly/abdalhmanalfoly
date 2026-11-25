@@ -40,24 +40,76 @@
 ---
 
 
-## About Me
+<h2 align="center">👨‍💻 About Me</h2>
 
-I'm a third-year Computer Science student at the **Faculty of Computers and Artificial Intelligence, Sphinx University**. I started in frontend development, then moved toward what interests me most: backend systems, APIs, databases, and putting AI models inside real applications.
 
-I learn by building complete systems rather than isolated exercises, and I try to document honestly what works, what is tested, and what is still unverified.
+<p align="center">
+  Started with Frontend Development and gradually moved toward
+  <b>Backend Engineering, APIs, Databases, and AI-powered Applications.</b>
+</p>
+
+<h3 align="center">⚙️ My Engineering Focus</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend_Systems-REST_APIs_%26_Architecture-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Databases-Data_Modeling-16A34A?style=flat-square" />
+  <br/>
+  <img src="https://img.shields.io/badge/AI_Integration-Models_into_Applications-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/Full_Stack-Frontend_%26_Backend-0891B2?style=flat-square" />
+</p>
+
+<h3 align="center">🚀 How I Build</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/01-Build_Complete_Systems-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/02-Test_%26_Validate-16A34A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/03-Document_Honestly-9333EA?style=for-the-badge" />
+</p>
+
+<p align="center">
+  I learn by building complete, practical systems rather than isolated exercises.
+  I value clear documentation and honest reporting of what works,
+  what has been tested, and what is still unverified.
+</p>
+
 
 ---
 
-## Technical Focus
+<h2 align="center">⚙️ Technical Focus</h2>
 
-| Area | What I work on |
-|---|---|
-| **Backend Engineering** | REST APIs, JWT authentication, role-based access control, real-time communication, relational and NoSQL data modeling |
-| **Full-Stack Development** | Next.js / React frontends integrated with Node.js and Python backends |
-| **AI Engineering** *(growing)* | Retrieval-Augmented Generation, embeddings and vector search with pgvector, LLM API integration |
-| **Computer Vision** | Real-time webcam and multi-camera pipelines with MediaPipe and OpenCV |
+<h3>🔵 Backend Engineering</h3>
+<p>
+  <img src="https://img.shields.io/badge/REST_APIs-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/JWT_Authentication-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Role--Based_Access_Control-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Real--Time_Communication-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Data_Modeling-2563EB?style=flat-square" />
+</p>
 
----
+<h3>🟢 Full-Stack Development</h3>
+<p>
+  <img src="https://img.shields.io/badge/Next.js-16A34A?style=flat-square&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-16A34A?style=flat-square&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-16A34A?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python_Backends-16A34A?style=flat-square&logo=python&logoColor=white" />
+</p>
+
+<h3>🟣 AI Engineering <sub>(Growing Focus)</sub></h3>
+<p>
+  <img src="https://img.shields.io/badge/RAG-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/Embeddings-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/Vector_Search-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/pgvector-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/LLM_APIs-9333EA?style=flat-square" />
+</p>
+
+<h3>🟠 Computer Vision</h3>
+<p>
+  <img src="https://img.shields.io/badge/MediaPipe-F59E0B?style=flat-square" />
+  <img src="https://img.shields.io/badge/OpenCV-F59E0B?style=flat-square" />
+  <img src="https://img.shields.io/badge/Webcam_Processing-F59E0B?style=flat-square" />
+  <img src="https://img.shields.io/badge/Multi--Camera_Systems-F59E0B?style=flat-square" />
+</p>
 
 ## Tech Stack
 
@@ -89,84 +141,209 @@ I learn by building complete systems rather than isolated exercises, and I try t
 
 ---
 
-## Backend & Full-Stack Development
-
-- Modular REST API design with middleware, input validation, and structured error handling
-- Authentication flows with JWT, bcrypt password hashing, and role-based access control
-- Real-time features with Socket.IO: live messaging, typing indicators, read receipts
-- Frontend–backend integration with React and Next.js, including dashboards and admin panels
-- Relational schema design with MySQL and PostgreSQL, plus MongoDB for document data
-
----
-
-## AI & Machine Learning
-
-I build AI features as part of larger software systems, with Python and FastAPI as my main tools.
-
-- **Hands-on:** a RAG backend (PDF ingestion, chunking, embeddings, pgvector search, cited answers), pretrained-model integration, and basic ML experiments with Scikit-learn
-- **Foundations:** the Transformer architecture and attention mechanism, studied theoretically rather than implemented from scratch
-- **Next:** LLM engineering, retrieval evaluation, and tool-calling AI agents
-
----
-
-## Featured Projects
-
-### [AI Research Assistant](https://github.com/abdalhmanalfoly/ai-research-assistant-openfreemodel)
-A RAG backend that answers questions over a corpus of research PDFs and returns citations with paper title, DOI/URL, and PDF page number. Retrieved chunks get app-assigned IDs and the model's citations are validated against them, so unknown references are stripped. Scanned PDFs fall back to local OCR.
-
-`Python` `FastAPI` `PostgreSQL` `pgvector` `Alembic` `OpenRouter` `RapidOCR` `Docker Compose` `pytest`
-
-> **Status:** unit tests and mocked-provider tests pass. The README lists what has not yet been verified end to end (a real database run, live OpenRouter calls, and retrieval-threshold calibration).
-
-### [SAGA 3D](https://github.com/abdalhmanalfoly/SAGA3D-full-version-) — Spatial Agentic Geometric Animation
-An experimental gesture-interaction system: browser-based sensors detect hand landmarks with MediaPipe and stream them to a FastAPI host over WebSockets, which handles sensor registration, multi-camera 3D fusion, and gesture recognition. A Godot 4.3 adapter consumes the result for a grab, move, and release demo. The repository documents the protocol, coordinate systems, and 400+ automated tests.
-
-`Python` `FastAPI` `WebSockets` `MediaPipe` `Computer Vision` `Godot`
-
-> **Status:** experimental. Calibration with real physical cameras and real-world validation are still pending.
-
-### [Egypt Transportation Optimization Simulator](https://github.com/abdalhmanalfoly/Logistics-Simulation-Python-PySide6-Operations-Research)
-A desktop application that solves transportation problems with Vogel's Approximation Method and MODI optimization, then animates the resulting logistics plan on a map of Egypt. The simulation state is a pure function of time, so play, pause, step, and scrub always match the underlying math. Includes 46 automated tests.
-
-`Python` `PySide6` `Operations Research` `pytest`
-
-### [Real-Time Chat](https://github.com/abdalhmanalfoly/websocketsChat)
-A chat application with live messaging, typing indicators, read receipts, and message persistence.
-
-`Node.js` `Express` `Socket.IO` `MongoDB`
-
-### [MERN Authentication System](https://github.com/abdalhmanalfoly/full-mern-stack-auth-sys)
-Sign-up with email OTP verification, cookie-based sessions with JWT, protected routes, and a password-strength indicator. The password-reset page is still in progress.
-
-`MongoDB` `Express` `React` `Node.js` `Zustand` `Tailwind CSS`
-
-**Also built, in private repositories:** a university dining management backend (Node.js, Express, MySQL, JWT, Socket.IO, role-based access) and backend and admin-dashboard work on a student housing platform (Next.js, Express, MySQL).
-
----
-
-## GitHub Statistics
-
-Optional: uncomment after checking that the stats service is up when you view the profile.
+<h2 align="center">🧠 AI & Machine Learning</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdalhmanalfoly&show_icons=true&hide_border=true" alt="GitHub stats" />
+  Building AI-powered features and integrating machine learning models
+  into practical software systems using Python and FastAPI.
+</p>
+
+<h3>🟢 Hands-on Experience</h3>
+<p>
+  <img src="https://img.shields.io/badge/RAG_Systems-16A34A?style=flat-square" />
+  <img src="https://img.shields.io/badge/PDF_Processing-16A34A?style=flat-square" />
+  <img src="https://img.shields.io/badge/Text_Chunking-16A34A?style=flat-square" />
+  <img src="https://img.shields.io/badge/Embeddings-16A34A?style=flat-square" />
+  <img src="https://img.shields.io/badge/Vector_Search-16A34A?style=flat-square" />
+  <img src="https://img.shields.io/badge/pgvector-16A34A?style=flat-square" />
+  <img src="https://img.shields.io/badge/Scikit--learn-16A34A?style=flat-square&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pretrained_Models-16A34A?style=flat-square" />
+  <img src="https://img.shields.io/badge/FastAPI-16A34A?style=flat-square&logo=fastapi&logoColor=white" />
+</p>
+
+<h3>🔵 Theoretical Foundations</h3>
+<p>
+  <img src="https://img.shields.io/badge/Transformers-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Attention_Mechanism-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/ML_Fundamentals-2563EB?style=flat-square" />
+</p>
+<p>
+  <sub>Studied conceptually; not implemented from scratch.</sub>
+</p>
+
+<h3>🟣 Currently Exploring</h3>
+<p>
+  <img src="https://img.shields.io/badge/LLM_Engineering-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/Retrieval_Evaluation-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/AI_Agents-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/Tool_Calling-9333EA?style=flat-square" />
 </p>
 
 
-See my [repositories](https://github.com/abdalhmanalfoly?tab=repositories) for current activity.
+
+## 🚀 Featured Projects
+
+### 🔬 [AI Research Assistant](https://github.com/abdalhmanalfoly/ai-research-assistant-openfreemodel)
+
+A RAG backend for querying research PDF collections and generating cited answers with paper titles, DOI/URLs, and PDF page references. Includes application-assigned chunk IDs, citation validation to reject unknown references, and local OCR fallback for scanned PDFs.
+
+**Tech Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square)
+![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=flat-square)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-000000?style=flat-square)
+![RapidOCR](https://img.shields.io/badge/RapidOCR-555555?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+> **Status:** Unit and mocked-provider tests pass. Real database execution, live OpenRouter integration, and retrieval-threshold calibration remain unverified.
 
 ---
 
-## Current Learning Journey
+### 🖐️ [SAGA 3D](https://github.com/abdalhmanalfoly/SAGA3D-full-version-) — Spatial Agentic Geometric Animation
 
-- **NestJS** for structured, scalable backend architecture
-- **Docker** beyond local development, toward production deployment
-- **LLM engineering:** embeddings, retrieval quality, and context management
-- **AI agents:** tool calling and multi-step workflows
+An experimental gesture-interaction system that streams MediaPipe hand landmarks from browser-based sensors to a FastAPI host over WebSockets. The host handles sensor registration, multi-camera 3D fusion, and gesture recognition, with a Godot 4.3 adapter designed for grab, move, and release interactions.
+
+The repository documents the communication protocol, coordinate systems, and 400+ automated tests.
+
+**Tech Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-5C6BC0?style=flat-square)
+![Godot](https://img.shields.io/badge/Godot_4.3-478CBF?style=flat-square&logo=godotengine&logoColor=white)
+
+> **Status:** Experimental. Physical camera calibration and real-world validation are still pending.
 
 ---
 
-## Contact
+### 🚚 [Egypt Transportation Optimization Simulator](https://github.com/abdalhmanalfoly/Logistics-Simulation-Python-PySide6-Operations-Research)
 
-- Portfolio: [portfolio-me-main.vercel.app](https://portfolio-me-main.vercel.app/)
-- GitHub: [@abdalhmanalfoly](https://github.com/abdalhmanalfoly)
+A desktop application that solves transportation problems using Vogel's Approximation Method and MODI optimization, then visualizes the logistics plan through an animated map of Egypt.
+
+The simulation state is derived as a pure function of time, ensuring consistent play, pause, step, and timeline scrubbing. Includes 46 automated tests.
+
+**Tech Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=flat-square)
+![Operations Research](https://img.shields.io/badge/Operations_Research-6A5ACD?style=flat-square)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+---
+
+### 💬 [Real-Time Chat](https://github.com/abdalhmanalfoly/websocketsChat)
+
+A real-time chat application featuring live messaging, typing indicators, read receipts, and persistent message storage.
+
+**Tech Stack**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+---
+
+### 🔐 [MERN Authentication System](https://github.com/abdalhmanalfoly/full-mern-stack-auth-sys)
+
+An authentication system featuring email OTP verification, cookie-based JWT sessions, protected routes, and password-strength feedback.
+
+**Tech Stack**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+> **Note:** Password reset functionality is still under development.
+
+---
+
+### 🔒 Additional Private Projects
+
+**University Dining Management System**
+
+Backend for a university dining platform, featuring REST APIs, JWT authentication, role-based access control, and real-time communication.
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
+
+**Student Housing Platform**
+
+Contributed to backend development and admin-dashboard integration for a student housing platform.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+---
+
+
+
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=abdalhmanalfoly&show_icons=true&hide_border=true&theme=transparent"
+    alt="GitHub Statistics"
+    height="165"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdalhmanalfoly&layout=compact&hide_border=true&theme=transparent"
+    alt="Most Used Languages"
+    height="165"
+  />
+</p>
+
+<p align="center">
+  <a href="https://github.com/abdalhmanalfoly?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore_My_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
+  </a>
+</p>
+
+---
+
+## 🌱 Current Learning Journey
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NestJS-Studying-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Expanding_Knowledge-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM_Engineering-Exploring-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI_Agents-Learning-16A34A?style=for-the-badge" />
+</p>
+
+
+---
+
+
+## 📬 Contact
+
+<p align="center">
+  <a href="https://portfolio-me-main.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit_My_Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="https://github.com/abdalhmanalfoly">
+    <img src="https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://wa.me/201026981795">
+    <img src="https://img.shields.io/badge/WhatsApp-Contact_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a href="https://www.facebook.com/abdalrhman.foly/">
+    <img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/abdalrhman-foly-318722268/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
