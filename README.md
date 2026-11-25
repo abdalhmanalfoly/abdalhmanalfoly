@@ -32,7 +32,7 @@
     <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fabdalhmanalfoly&query=%24.public_repos&label=Public%20Repositories&logo=github&style=for-the-badge&color=blue" />
   </a>
 
- <img src="https://komarev.com/ghpvc/?username=abdalhmanalfoly&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+ <!-- <img src="https://komarev.com/ghpvc/?username=abdalhmanalfoly&label=Profile%20Views&color=0e75b6&style=for-the-badge" /> -->
 </p>
 
 
