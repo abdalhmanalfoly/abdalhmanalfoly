@@ -31,11 +31,11 @@
   <a href="https://github.com/abdalhmanalfoly?tab=repositories">
     <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fabdalhmanalfoly&query=%24.public_repos&label=Public%20Repositories&logo=github&style=for-the-badge&color=blue" />
   </a>
- <!--
+
  <img src="https://komarev.com/ghpvc/?username=abdalhmanalfoly&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
- -->
+
 ---
 
 
@@ -145,13 +145,12 @@ Sign-up with email OTP verification, cookie-based sessions with JWT, protected r
 
 ## GitHub Statistics
 
-<!--
 Optional: uncomment after checking that the stats service is up when you view the profile.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=abdalhmanalfoly&show_icons=true&hide_border=true" alt="GitHub stats" />
 </p>
--->
+
 
 See my [repositories](https://github.com/abdalhmanalfoly?tab=repositories) for current activity.
 
