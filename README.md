@@ -305,10 +305,10 @@ Contributed to backend .
     height="165"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/username=abdalhmanalfoly&layout=compact&langs_count=12&hide_border=true&theme=transparent"
-    alt="Most Used Languages"
-    height="165"
-  />
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdalhmanalfoly&layout=compact&langs_count=10&hide_border=true&theme=transparent"
+  alt="Most Used Languages"
+  height="165"
+/>
 </p>
 
 <p align="center">
