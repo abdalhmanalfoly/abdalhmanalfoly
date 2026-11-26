@@ -43,7 +43,9 @@
 
 
 <p align="center">
-  Computer Science student passionate about software engineering, problem-solving, and building technology that makes a real difference.
+  A curious engineer who enjoys understanding how things work,
+  solving complex problems, and turning ideas into practical,
+  reliable software.
 </p>
 
 <h3 align="center">⚙️ My Engineering Focus</h3>
@@ -65,9 +67,11 @@
 </p>
 
 <p align="center">
-  I learn by building complete, practical systems rather than isolated exercises.
-  I value clear documentation and honest reporting of what works,
-  what has been tested, and what is still unverified.
+  I focus on building practical, end-to-end software systems
+  with an emphasis on clean architecture, maintainability,
+  and engineering discipline. I believe in clear documentation,
+  thorough testing, and transparent reporting of implementation
+  status and technical limitations.
 </p>
 
 
@@ -235,59 +239,61 @@ The simulation state is derived as a pure function of time, ensuring consistent 
 
 ---
 
-### 💬 [Real-Time Chat](https://github.com/abdalhmanalfoly/websocketsChat)
 
-A real-time chat application featuring live messaging, typing indicators, read receipts, and persistent message storage.
+### 📅 [Calendra – Scheduling Platform](https://github.com/abdalhmanalfoly/calendra-application-)
 
-**Tech Stack**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
----
-
-### 🔐 [MERN Authentication System](https://github.com/abdalhmanalfoly/full-mern-stack-auth-sys)
-
-An authentication system featuring email OTP verification, cookie-based JWT sessions, protected routes, and password-strength feedback.
+A full-stack meeting scheduling platform that simplifies appointment booking and availability management. Features Google Calendar synchronization, customizable event types, timezone-aware scheduling, public booking pages, and secure authentication.
 
 **Tech Stack**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle- C5F74F?style=flat-square)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square)
+![Google Calendar](https://img.shields.io/badge/Google_Calendar-4285F4?style=flat-square&logo=googlecalendar&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-> **Note:** Password reset functionality is still under development.
-
 ---
+### 🛒 [Full-Stack E-Commerce](https://github.com/abdalhmanalfoly/ecommerce)
 
+A full-stack e-commerce platform featuring product browsing, secure authentication, order management, Stripe payment integration, and email notifications.
+
+**Tech Stack**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
+![Strapi](https://img.shields.io/badge/Strapi-4945FF?style=flat-square&logo=strapi&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white)
+---
 ### 🔒 Additional Private Projects
 
 **University Dining Management System**
 
-Backend for a university dining platform, featuring REST APIs, JWT authentication, role-based access control, and real-time communication.
+A security-focused backend for a university dining management platform, built around secure authentication, role-based authorization, and controlled API access. The system provides RESTful APIs, JWT-based authentication, role-specific permissions, and real-time communication for managing dining operations and order updates. This project represents one of my strongest backend engineering experiences, with a particular focus on API security, access control, and reliable server-side architecture.
+
+**Tech Stack**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-02569B?style=flat-square&logo=fastapi&logoColor=white)
 
-**Student Housing Platform**
+**coming soon**
 
-Contributed to backend development and admin-dashboard integration for a student housing platform.
+Contributed to backend .
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![POSTGRESQL](https://img.shields.io/badge/POSTGRESSQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ---
-
-
 
 
 ## 📊 GitHub Statistics
