@@ -291,7 +291,7 @@ Contributed to backend .
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![POSTGRESQL](https://img.shields.io/badge/POSTGRESSQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ---
 
@@ -305,7 +305,7 @@ Contributed to backend .
     height="165"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdalhmanalfoly&layout=compact&hide_border=true&theme=transparent"
+    src="https://github-readme-stats.vercel.app/api/top-langs/username=abdalhmanalfoly&layout=compact&langs_count=12&hide_border=true&theme=transparent"
     alt="Most Used Languages"
     height="165"
   />
@@ -316,18 +316,6 @@ Contributed to backend .
     <img src="https://img.shields.io/badge/Explore_My_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
   </a>
 </p>
-
----
-
-## 🌱 Current Learning Journey
-
-<p align="center">
-  <img src="https://img.shields.io/badge/NestJS-Studying-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-Expanding_Knowledge-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/LLM_Engineering-Exploring-8A2BE2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AI_Agents-Learning-16A34A?style=for-the-badge" />
-</p>
-
 
 ---
 
