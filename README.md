@@ -43,8 +43,7 @@
 
 
 <p align="center">
-  Started with Frontend Development and gradually moved toward
-  <b>Backend Engineering, APIs, Databases, and AI-powered Applications.</b>
+  Computer Science student passionate about software engineering, problem-solving, and building technology that makes a real difference.
 </p>
 
 <h3 align="center">⚙️ My Engineering Focus</h3>
